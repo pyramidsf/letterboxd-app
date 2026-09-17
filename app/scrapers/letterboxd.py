@@ -141,7 +141,7 @@ def converter_estrelas_para_nota(estrelas_str: str) -> float:
 # Bloco pra testar o arquivo isoladamente
 if __name__ == "__main__":
     # Substitua pelo username de alguém (o seu, por exemplo)
-    teste_username = "masria" 
+    teste_username = "userteste" 
     filmes = asyncio.run(scrape_letterboxd_diary(teste_username))
     print(f"\nTotal de filmes encontrados: {len(filmes)}")
     print("Primeiros 3 filmes:", filmes[:3])
